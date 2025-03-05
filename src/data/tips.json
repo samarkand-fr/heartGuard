@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "tip": "Exercise regularly: Physical activity can help raise HDL (good cholesterol) and lower LDL (bad cholesterol). Aim for at least 30 minutes of moderate exercise most days of the week.",
+    "icon": "Dumbbell"
+  },
+  {
+    "id": "2",
+    "tip": "Eat more fiber: Foods rich in soluble fiber, like oats, beans, and apples, can help reduce LDL cholesterol levels and improve heart health.",
+    "icon": "Leaf"
+  },
+  {
+    "id": "3",
+    "tip": "Choose healthy fats: Replace saturated fats and trans fats with healthier unsaturated fats found in olive oil, nuts, and fatty fish like salmon.",
+    "icon": "Flame"
+  },
+  {
+    "id": "4",
+    "tip": "Limit processed foods: Processed and packaged foods often contain unhealthy fats and high sodium levels, which can negatively affect cholesterol levels.",
+    "icon": "Candy"
+  },
+  {
+    "id": "5",
+    "tip": "Stay hydrated: Drinking plenty of water throughout the day helps maintain good circulation, which supports heart health and cholesterol management.",
+    "icon": "Droplet"
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "id": "1",
+    "name": "Oatmeal with Berries and Flaxseeds",
+    "image": "/oatmeal.jpg",
+    "ingredients": [
+      "1/2 cup rolled oats",
+      "1 cup unsweetened almond milk",
+      "1/4 cup mixed berries (blueberries, strawberries)",
+      "1 tablespoon ground flaxseeds",
+      "1/2 teaspoon cinnamon"
+    ],
+    "instructions": "Combine the oats and almond milk in a saucepan over medium heat. Bring to a simmer and cook for about 5 minutes, stirring occasionally. Once cooked, top with mixed berries, ground flaxseeds, and a sprinkle of cinnamon. Serve warm for a cholesterol-friendly breakfast."
+  },
+  {
+    "id": "2",
+    "name": "Grilled Salmon with Avocado Salsa",
+    "image": "/Grilled-Salmon.jpg",
+    "ingredients": [
+      "2 salmon fillets (rich in omega-3 fatty acids)",
+      "1 tablespoon olive oil",
+      "1 ripe avocado, diced",
+      "1/2 red onion, finely chopped",
+      "1 tablespoon lime juice",
+      "Salt and pepper to taste"
+    ],
+    "instructions": "Preheat the grill to medium heat. Drizzle the salmon fillets with olive oil, season with salt and pepper, and grill for about 4-5 minutes per side until cooked through. For the salsa, mix together diced avocado, red onion, lime juice, and a pinch of salt. Serve the grilled salmon topped with avocado salsa, a heart-healthy dish rich in healthy fats."
+  },
+  {
+    "id": "3",
+    "name": "Chickpea and Spinach Salad",
+    "image": "/Chickpea-salade.png",
+    "ingredients": [
+      "1 can chickpeas, drained and rinsed",
+      "2 cups fresh spinach, chopped",
+      "1/2 red onion, thinly sliced",
+      "1 tablespoon olive oil",
+      "1 tablespoon lemon juice",
+      "1 teaspoon apple cider vinegar",
+      "Salt and pepper to taste"
+    ],
+    "instructions": "In a large bowl, combine the chickpeas, spinach, and red onion. In a small bowl, whisk together olive oil, lemon juice, apple cider vinegar, salt, and pepper. Pour the dressing over the salad and toss to combine. Serve chilled for a refreshing and heart-healthy meal."
+  },
+  {
+    "id": "4",
+    "name": "Roasted Vegetables with Quinoa",
+    "image": "/Roasted-Vegetable.jpg",
+    "ingredients": [
+      "1 cup cooked quinoa",
+      "1 cup broccoli florets",
+      "1 cup cauliflower florets",
+      "1 tablespoon olive oil",
+      "1 teaspoon garlic powder",
+      "Salt and pepper to taste"
+    ],
+    "instructions": "Preheat the oven to 400°F (200°C). Toss the broccoli and cauliflower florets with olive oil, garlic powder, salt, and pepper. Roast for 20-25 minutes, or until tender and slightly browned. Serve the roasted vegetables over a bed of cooked quinoa for a fiber-rich, heart-healthy dish."
+  },
+  {
+    "id": "5",
+    "name": "Avocado and Tomato Toast",
+    "image": "/Tomato-Avocado-Toast.jpg",
+    "ingredients": [
+      "1 slice whole grain bread",
+      "1/2 ripe avocado, mashed",
+      "1/2 cup cherry tomatoes, sliced",
+      "1 tablespoon olive oil",
+      "1 tablespoon fresh basil, chopped",
+      "Salt and pepper to taste"
+    ],
+    "instructions": "Toast the slice of whole grain bread. Spread mashed avocado on the toast and top with sliced cherry tomatoes, fresh basil, and a drizzle of olive oil. Sprinkle with salt and pepper for flavor. This is a simple, heart-healthy snack that helps manage cholesterol levels."
+  },
+  {
+    "id": "6",
+    "name": "Lentil and Veggie Soup",
+    "image": "/lentil-soup.jpg",
+    "ingredients": [
+      "1 cup dried lentils, rinsed",
+      "1 carrot, diced",
+      "1 celery stalk, diced",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 can diced tomatoes",
+      "4 cups vegetable broth",
+      "1 teaspoon turmeric",
+      "1 teaspoon cumin",
+      "Salt and pepper to taste"
+    ],
+    "instructions": "In a large pot, sauté the onion, garlic, carrot, and celery in a bit of olive oil until softened. Add the lentils, diced tomatoes, vegetable broth, turmeric, cumin, salt, and pepper. Bring to a boil, then reduce the heat and simmer for 30 minutes or until the lentils are tender. Serve warm for a heart-healthy, fiber-rich meal."
+  },
+  {
+    "id": "7",
+    "name": "Quinoa and Black Bean Salad",
+    "image": "/quinoa-blackbean-salad.jpg",
+    "ingredients": [
+      "1 cup cooked quinoa",
+      "1 can black beans, drained and rinsed",
+      "1 red bell pepper, diced",
+      "1/2 red onion, finely chopped",
+      "1 tablespoon olive oil",
+      "1 tablespoon lime juice",
+      "1 teaspoon cumin",
+      "Salt and pepper to taste",
+      "Chopped cilantro for garnish"
+    ],
+    "instructions": "In a large bowl, combine the cooked quinoa, black beans, bell pepper, and red onion. In a small bowl, whisk together olive oil, lime juice, cumin, salt, and pepper. Pour the dressing over the salad and toss to combine. Garnish with chopped cilantro and serve chilled or at room temperature."
+  },
+  {
+    "id": "8",
+    "name": "Baked Sweet Potato Fries",
+    "image": "/sweet-potato-fries.jpg",
+    "ingredients": [
+      "2 large sweet potatoes, peeled and cut into wedges",
+      "1 tablespoon olive oil",
+      "1 teaspoon paprika",
+      "1 teaspoon garlic powder",
+      "Salt and pepper to taste"
+    ],
+    "instructions": "Preheat the oven to 425°F (220°C). Toss the sweet potato wedges with olive oil, paprika, garlic powder, salt, and pepper. Spread them in a single layer on a baking sheet. Bake for 20-25 minutes, flipping halfway through, until crispy and tender. Serve as a healthy side dish to complement your meals."
+  },
+  {
+    "id": "9",
+    "name": "Avocado and Cucumber Salad",
+    "image": "/avocado-cucumber-salad.jpg",
+    "ingredients": [
+      "1 ripe avocado, diced",
+      "1 cucumber, sliced",
+      "1 tablespoon olive oil",
+      "1 tablespoon lemon juice",
+      "1 tablespoon fresh dill, chopped",
+      "Salt and pepper to taste"
+    ],
+    "instructions": "In a medium bowl, combine the diced avocado and cucumber. Drizzle with olive oil and lemon juice. Toss gently to combine, then sprinkle with fresh dill, salt, and pepper. Serve chilled for a light, refreshing, and heart-healthy salad."
+  },
+  {
+    "id": "10",
+    "name": "Baked Chickpea Patties",
+    "image": "/chickpea-patties.jpg",
+    "ingredients": [
+      "1 can chickpeas, drained and mashed",
+      "1/4 cup breadcrumbs",
+      "1 tablespoon olive oil",
+      "1/4 teaspoon cumin",
+      "1/4 teaspoon paprika",
+      "1 tablespoon fresh parsley, chopped",
+      "Salt and pepper to taste"
+    ],
+    "instructions": "Preheat the oven to 375°F (190°C). In a large bowl, combine the mashed chickpeas, breadcrumbs, olive oil, cumin, paprika, parsley, salt, and pepper. Form the mixture into small patties and place them on a baking sheet. Bake for 20-25 minutes, flipping halfway through, until golden brown. Serve with a side of mixed greens or as a sandwich filling."
+  }
+]
