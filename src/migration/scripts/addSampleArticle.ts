@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import Article from "../migration/models/Article"; // Adjust path if needed
-import {connectDB} from "../utils/db"; // Adjust path if needed
+import Article from "../../migration/models/Article"; 
+import {connectDB} from "../../utils/db"; 
 
 dotenv.config(); // Load environment variables
 
