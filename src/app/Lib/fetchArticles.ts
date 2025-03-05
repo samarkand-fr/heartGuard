@@ -1,4 +1,4 @@
-import Article from '../../models/Article'; // Adjust the path according to your project structure
+import Article from '../../migration/models/Article'; // Adjust the path according to your project structure
 import { connectDB } from '../../utils/db'; // Assuming you have a db.ts file for MongoDB connection
 
 export const fetchArticles = async () => {

@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 import { v2 as cloudinary } from "cloudinary";
 import fs from "fs";
 import path from "path";
-import Article from "../models/Article"; // Vérifie le chemin
+import Article from "../migration/models/Article"; // Vérifie le chemin
 import { connectDB } from "../utils/db";
 
 dotenv.config(); // Charger les variables d'environnement

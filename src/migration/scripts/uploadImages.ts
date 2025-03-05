@@ -88,7 +88,7 @@ import dotenv from "dotenv";
 import { v2 as cloudinary } from "cloudinary";
 import fs from "fs";
 import path from "path";
-import Article from "../models/Article"; // Adjust the path if needed
+import Article from "../migration/models/Article"; // Adjust the path if needed
 import { connectDB } from "../utils/db"; // Assuming your MongoDB connection is in /utils/db.ts
 
 dotenv.config(); // Load environment variables
