@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Health News & Articles Management App
+A web application that displays health-related articles and news with the ability to manage content dynamically via a web interface or API. The app is built using Next.js, Tailwind CSS, MongoDB, and Cloudinary for image management.
 
-## Getting Started
+Features
+Dynamic Article Management: Add, update, and delete articles through a web interface or API.
+Search Functionality: Search articles based on titles.
+Health News: Display and filter health-related news articles.
+Responsive Design: Works well on all screen sizes with a clean, modern design powered by Tailwind CSS.
+Image Hosting: Uses Cloudinary for image storage and optimization.
+Tech Stack
+Next.js: React framework for building the web application.
+MongoDB: NoSQL database for storing articles.
+Tailwind CSS: Utility-first CSS framework for custom styling.
+Cloudinary: Image hosting and optimization platform.
+TypeScript: Strongly typed JavaScript to improve maintainability.
+Setup Instructions
+Prerequisites
+Node.js (LTS version)
+MongoDB (local or via MongoDB Atlas)
+Installation
+Clone the repository:
+bash
+Copy
+Edit
+git clone https://github.com/your-username/health-news-app.git
+cd health-news-app
+Install dependencies:
+bash
+Copy
+Edit
+npm install
+Set up environment variables:
+Create a .env.local file at the root of the project and add the following:
 
-First, run the development server:
+bash
+Copy
+Edit
+MONGO_URI=mongodb://localhost:27017/your-database-name
+CLOUDINARY_URL=your-cloudinary-url
+Replace your-database-name and your-cloudinary-url with your actual MongoDB connection URI and Cloudinary URL.
 
-```bash
+Start the development server:
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Your app will be live at http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Directory Structure
+bash
+Copy
+Edit
+.
+├── app/
+│   ├── articles/                # Article pages and dynamic routes
+│   ├── api/                     # API routes for article management
+│   ├── components/              # Reusable UI components (e.g., ArticleCard)
+│   ├── Lib/                     # Helper functions and logic
+│   └── styles/                  # Global styles and Tailwind config
+├── models/                      # MongoDB schemas and models
+├── migration/                   # Scripts for database migrations and updates
+├── utils/                       # Utility functions (e.g., for connecting to MongoDB)
+├── .env.local                   # Environment variables
+├── next.config.js               # Next.js configuration
+└── package.json                 # Project dependencies and scripts
+Usage
+Home Page: Displays a list of health articles and news. Articles can be searched via the search bar.
+Article Details: Clicking on an article title will show detailed content, including the title, summary, and image.
+Admin Panel: Manage articles dynamically (Add/Edit/Delete) through a backend API (in development).
+Development
+If you want to contribute or run the app in a local environment, here’s how to get started:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Clone the repository and install dependencies:
+bash
+Copy
+Edit
+git clone https://github.com/your-username/health-news-app.git
+cd health-news-app
+npm install
+Create the .env.local file with the appropriate MongoDB and Cloudinary configurations.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Run the app locally:
 
-## Learn More
+bash
+Copy
+Edit
+npm run dev
+Running Migrations
+If you decide to migrate your database structure or add new fields to the articles, you can run scripts from the migration folder to manage these updates.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

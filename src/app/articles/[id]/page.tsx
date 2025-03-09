@@ -1,4 +1,4 @@
-import ScrollButton from '@/components/ScrollButton';
+import ScrollButton from '../../../components/ScrollButton';
 import { fetchArticleById } from '../../Lib/fetchArticlesById'; // Import your fetch function
 import { Article } from '@/types/article'; // Assuming the Article type exists
 import Image from 'next/image';
