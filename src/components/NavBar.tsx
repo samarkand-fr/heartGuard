@@ -53,7 +53,7 @@ export default function NavBar() {
               Logout
             </button>
           ) : (
-            <NavLink href="/login" label="Login" />
+            <NavLink href="/login" label="Admin"  />
           )}
         </div>
       </div>
