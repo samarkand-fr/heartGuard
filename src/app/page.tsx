@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 
 export default function HomePage() {
@@ -59,7 +60,7 @@ export default function HomePage() {
           HeartGuard is here to help. Explore our resources and take the first step towards a heart-healthy life.
         </p>
         <Link
-          href="/get-started"
+          href="/onboarding"
           className="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white font-medium px-6 py-3 rounded-lg shadow-lg transition duration-300"
         >
           Get Started
