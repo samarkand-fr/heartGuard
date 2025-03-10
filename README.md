@@ -1,9 +1,11 @@
 
 # 🏥 Health News & Articles Management App
+![Project Screenshot](public/homepage.png)
 
 A modern web application designed to display health-related articles, news, tips, and recipes. With the ability to manage content dynamically via a web interface or API, this app offers an engaging experience for users to stay informed on health topics. Built with **Next.js**, **Tailwind CSS**, **MongoDB**, and **Cloudinary** for seamless image management.
 
 ---
+![Project Screenshot](public/admin-dashboard.png)
 
 ## 🚀 Features
 
