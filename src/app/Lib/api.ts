@@ -8,11 +8,4 @@
       
         return res.json();
       };
-      
-
-
-
-      
-
-     
-      
+  

@@ -1,8 +1,4 @@
-// export const fetchArticle = async (id: string) => {
-//     const response = await fetch(`/api/articles?id=${id}`);
-//     const data = await response.json();
-//     return data;
-//   };
+
 import Article from "../../migration/models/Article";
 import { connectDB } from "../../utils/db";
 
