@@ -2,8 +2,8 @@ import {  NextResponse } from "next/server";
 import { connectDB } from "@/utils/db";
 import Article from "@/migration/models/Article";
 
+// Connect to the database (ensure it happens outside the function for reuse)
 connectDB();
-
 
 export async function GET() {
   try {

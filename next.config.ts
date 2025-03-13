@@ -1,8 +1,23 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   images: {
-    domains: ["static01.nyt.com", "ichef.bbci.co.uk", "res.cloudinary.com"], // Ajoute ici tous les domaines autorisés
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'static01.nyt.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ichef.bbci.co.uk',
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'example.com',
+      },
+    ],
   },
 };
 
-module.exports = nextConfig;
