@@ -1,5 +1,5 @@
-import { fetchArticles } from '../Lib/fetchArticles'; // Utility function to fetch articles
-import ArticleCard from '../../components/ArticleCard';
+import { fetchArticles } from '@/app/Lib/fetchArticles'; // Utility function to fetch articles
+import ArticleCard from '@/components/ArticleCard';
 import { Article } from '@/types/article';
 import ScrollButton from '@/components/ScrollButton';
 

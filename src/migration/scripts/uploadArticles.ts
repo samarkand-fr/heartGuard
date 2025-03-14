@@ -2,8 +2,8 @@ import dotenv from "dotenv";
 import { v2 as cloudinary } from "cloudinary";
 import fs from "fs";
 import path from "path";
-import Article from "../../migration/models/Article";
-import { connectDB } from "../../utils/db"; 
+import Article from "@/migration/models/Article";
+import { connectDB } from "@/utils/db"; 
 
 
 dotenv.config(); // Charger les variables d'environnement
@@ -16,7 +16,7 @@ cloudinary.config({
 });
 
 // Charger les articles depuis le fichier JSON
-const articles = JSON.parse(fs.readFileSync(path.join(__dirname, "../data/articles.json"), "utf-8"));
+const articles = JSON.parse(fs.readFileSync(path.join(__dirname, "@/data/articles.json"), "utf-8"));
 
 // Fonction pour uploader les images vers Cloudinary
 const uploadImageToCloudinary = async (imagePath: string): Promise<string> => {
@@ -43,7 +43,7 @@ const uploadArticles = async () => {
     // Parcours des articles pour uploader les images et insérer dans la DB
     const insertedArticles = [];
     for (const article of articles) {
-      const imagePath = path.join(__dirname, "../../public", article.image); // Chemin complet de l'image
+      const imagePath = path.join(__dirname, "@/@/public", article.image); // Chemin complet de l'image
 
       if (fs.existsSync(imagePath)) {
         console.log(`Uploading image: ${article.image}`);

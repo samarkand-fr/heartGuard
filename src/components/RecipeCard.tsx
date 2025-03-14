@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Recipe } from '../types/recipe';
+import { Recipe } from '@/types/recipe';
 
 interface RecipeCardProps {
   recipe: Recipe;

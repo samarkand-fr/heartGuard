@@ -1,5 +1,6 @@
-import recipesData from '../../data/recipes.json';
+import recipesData from "@/data/recipes.json";
+import { Recipe } from "@/types/recipe"; 
 
-export const fetchRecipes = () => {
-  return recipesData;
+export const fetchRecipes = (): Recipe[] => {
+  return recipesData as Recipe[];
 };

@@ -1,4 +1,3 @@
-// components/ArticleList.tsx (This would be inside the components folder)
 import Link from "next/link";
 
 interface Article {

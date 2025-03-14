@@ -4,7 +4,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import ScrollButton from "@/components/ScrollButton";
-import { fetchHealthNews } from "../Lib/api";
+import { fetchHealthNews } from "@/app/Lib/api";
 
 interface NewsArticle {
   title: string;

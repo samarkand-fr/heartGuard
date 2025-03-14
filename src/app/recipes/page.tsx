@@ -1,5 +1,5 @@
-import { fetchRecipes } from '../Lib/fetchRecipes'; // Utility function to fetch recipes
-import RecipeCard from '../../components/RecipeCard';
+import { fetchRecipes } from '@/app/Lib/fetchRecipes'; // Utility function to fetch recipes
+import RecipeCard from '@/components/RecipeCard';
 import ScrollButton from '@/components/ScrollButton';
 
 export default function RecipesPage() {

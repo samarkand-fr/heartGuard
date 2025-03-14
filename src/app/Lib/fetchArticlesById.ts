@@ -1,6 +1,6 @@
 
 import mongoose from 'mongoose';
-import Article from '../../migration/models/Article';
+import Article from '@/migration/models/Article';
 
 export const fetchArticleById = async (id: string) => {
   try {

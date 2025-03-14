@@ -4,7 +4,7 @@
 import { useState, useEffect } from "react";
 import { useRouter, usePathname } from "next/navigation"; // Track route changes
 import Link from "next/link";
-import { isAuthenticated, logout } from "../utils/auth"; 
+import { isAuthenticated, logout } from "@/utils/auth"; 
 import Image from "next/image";
 
 export default function NavBar() {

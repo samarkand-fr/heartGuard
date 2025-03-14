@@ -1,4 +1,4 @@
-import { fetchTips } from "../Lib/fetchTips";
+import { fetchTips } from "@/app/Lib/fetchTips";
 import TipCard from "@/components/TipCard";
 import ScrollButton from "@/components/ScrollButton";
 

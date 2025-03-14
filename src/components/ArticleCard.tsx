@@ -1,4 +1,4 @@
-import { Article } from '../types/article';
+import { Article } from '@/types/article';
 import Image from 'next/image';
 
 interface ArticleCardProps {
